@@ -6,7 +6,7 @@
 
 - 🧭 요구사항 정의 → 데이터 모델 → 자동화 → 배포·운영을 한 흐름으로
 - ✍️ &ldquo;무엇을, 왜, 어떤 방식으로 만들지&rdquo;를 근거로 정하고 의사결정을 기록으로 남깁니다
-- 🤖 Claude Code, Agentforce Vibes 기반 AI-First 개발 — 설계와 검증은 직접
+- 🤖 Claude Code, Agentforce Vibes 기반 AI-First 개발 - 설계와 검증은 직접
 - 📫 lym3303@naver.com
 
 <br>
