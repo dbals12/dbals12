@@ -69,31 +69,24 @@ AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 
 
 ### [knots-ai](https://github.com/dbals12/knots-ai) — AI 커리어 브랜딩 서비스 &nbsp; ([라이브 데모 ↗](https://knots-ai.lovable.app))
 
-3분짜리 음성 메모를 AI가 **핵심 추출 → 포인트 정리 → 글 흐름 구성 → 포맷 변환** 4단계로 처리해 **블로그, LinkedIn, Instagram 카드뉴스, Threads** 콘텐츠로 재생성하는 서비스. 프론트부터 백엔드까지 개인 풀스택 개발.
+3분짜리 음성 메모를 AI가 4단계로 처리해 **블로그, LinkedIn, Instagram 카드뉴스, Threads** 콘텐츠로 재생성하는 서비스. 프론트엔드부터 백엔드(Supabase Edge Functions 6종)까지 개인 풀스택 개발.
 
-<p>
-  <img src="assets/knots-home.png" width="230" alt="knots 홈 화면">
-  &nbsp;
-  <img src="assets/knots-results.png" width="230" alt="knots 결과 화면">
-</p>
-<sub>홈 — 음성/텍스트 입력, 기록 방향 선택 &nbsp;&nbsp; 결과 — 4단계 변환 과정, 플랫폼별 콘텐츠 카드</sub>
-
-```
-React (Vite, TypeScript, Tailwind, shadcn/ui)
-   │  Supabase Auth
-   ▼
-Supabase Edge Functions (Deno)
-   process-audio           STT
-   refine-output           OpenAI, 톤/포맷 반영 재정제
-   regenerate-session      세션 전체 재생성
-   update-and-regenerate   사용자 편집 반영 재생성
-   promote-draft           드래프트 → 확정본
-   log-event               사용 이벤트 로깅
-   ▼
-Supabase Postgres — RLS로 유저별 격리
-```
-
-`React` `TypeScript` `Supabase (Auth, Postgres, RLS)` `Edge Functions (Deno)` `OpenAI` `프롬프트 엔지니어링`
+<table>
+  <tr>
+    <td width="36%" valign="top" align="center">
+      <img src="assets/knots-results.png" width="260" alt="knots 결과 화면 — AI 4단계 변환과 플랫폼별 콘텐츠 카드">
+    </td>
+    <td width="64%" valign="top">
+      <b>음성 → 콘텐츠 파이프라인</b>
+      <ul>
+        <li>온보딩에서 직군과 톤을 고르고, 음성 또는 텍스트로 3분 기록</li>
+        <li>Deno Edge Function 6종이 STT → OpenAI 재정제 → 포맷별 생성을 처리</li>
+        <li>블로그, LinkedIn, Instagram, Threads 4개 카드로 출력 — 카드마다 편집·재생성·저장</li>
+        <li>Supabase Postgres + RLS로 유저별 격리, 편집 피드백 수집</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br>
 
