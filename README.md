@@ -88,6 +88,8 @@ AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 
   </tr>
 </table>
 
+`React` `TypeScript` `Tailwind` `Supabase (Auth, Postgres, RLS)` `Edge Functions (Deno)` `OpenAI` `프롬프트 엔지니어링`
+
 <br>
 
 ### [yumim](https://github.com/dbals12/yumim) — 마케팅 데이터 분석
