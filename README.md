@@ -21,7 +21,7 @@
 
 ### [ot-electronics-crm](https://github.com/dbals12/ot-electronics-crm) — OT전자 냉각장비 CRM
 
-AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 → 재영업**하는 가상기업의 End-to-End Salesforce CRM. 6주간 5인 팀 프로젝트에서 **구축·인수(T3) 트랙을 단독**으로 맡고 **AI 운영 고도화(T5) 이니셔티브를 주도**했습니다. 직접 커밋한 산출물 **Apex 19개, LWC 48개, Flow 23개**.
+AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 → 재영업**하는 가상기업의 End-to-End Salesforce CRM. 6주간 5인 팀 프로젝트에서 **설치·시운전·인수·보증 자동화를 담당**하고, 이후 **장비 조기경보·고객 포털·AI 상담을 잇는 운영 고도화**를 주도했습니다. 직접 커밋한 산출물 **Apex 19개, LWC 48개, Flow 23개**.
 
 <table>
   <tr>
@@ -69,7 +69,7 @@ AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 
 
 ### [knots-ai](https://github.com/dbals12/knots-ai) — AI 커리어 브랜딩 서비스 &nbsp; ([라이브 데모 ↗](https://knots-ai.lovable.app))
 
-3분짜리 음성 메모를 AI가 4단계로 처리해 **블로그, LinkedIn, Instagram 카드뉴스, Threads** 콘텐츠로 재생성하는 서비스. 프론트엔드부터 백엔드(Supabase Edge Functions 6종)까지 개인 풀스택 개발.
+3분짜리 음성 메모를 AI가 4단계로 처리해 **블로그, LinkedIn, Instagram 카드뉴스, Threads** 콘텐츠로 재생성하는 서비스. Lovable로 프로토타입을 만들고, Supabase 데이터 모델·RLS·Edge Functions·사용 이벤트 수집 구조를 확장한 개인 프로젝트입니다.
 
 <table>
   <tr>
@@ -107,7 +107,7 @@ AI 데이터센터용 냉각장비를 **제조 → 설치 → 인수 → 운영 
 | **Salesforce** | Apex, LWC, Aura, SOQL, Flow (Record-Triggered, Screen, Scheduled, Platform Event), Validation Rule, Approval Process, Custom Metadata Type, Agentforce, Experience Cloud, Service Cloud, Field Service, MIAW, Knowledge, SFDX |
 | **Web, 백엔드** | React, TypeScript, Tailwind, Supabase, Deno, Node, REST API |
 | **데이터, 분석** | Python, R, SQL (MySQL, BigQuery), pandas, scikit-learn, Tableau |
-| **협업, DevOps** | Git, git worktree, GitHub Actions CI, Prettier, ESLint, Jest, Claude Code, Agentforce Vibes |
+| **협업, 검증** | Git, git worktree, GitHub Actions, Apex Test, 빌드 자동화, Claude Code, Agentforce Vibes |
 
 ## 자격, 교육
 
